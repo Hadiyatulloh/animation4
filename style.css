@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@keyframes dream2024 {
+    0% {
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        border-radius: 40px;
+    }
+    25% {
+        width: 400px;
+        height: 400px;
+        background-color: blueviolet;
+        border-radius: 100px;
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+        background-color: blueviolet;
+        border-radius: 500px;
+    }
+    75% {
+        width: 400px;
+        height: 400px;
+        background-color: blueviolet;
+        border-radius: 100px;
+    }
+    100% {
+        width: 400px;
+        height: 400px;
+        background-color: blueviolet;
+        border-radius: 40px;
+    }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: dream2024;
+    animation-duration: 4s;
+    animation-iteration-count: 4;
+}
+
+.header h3 {
+    color: transparent;
+    animation-name: aaa;
+    animation-delay: 8s;
+}
+
+.header h3:hover {
+    color: black;
+}
+
+.header {
+    width: 450px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
